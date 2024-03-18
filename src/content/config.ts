@@ -56,5 +56,5 @@ const recipesCollection = defineCollection({
 export const collections = {
 	blog: blogCollection,
 	pantry: pantryCollection,
-	recipes: recipesCollection
+	recipes: recipesCollection,
 };
