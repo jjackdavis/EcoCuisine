@@ -1,6 +1,10 @@
 # EcoCuisine
 
-## TODO: Change logo for EcoCuisine, use svg
+## TODO: 
+- Update information on recipe/pantry cards
+  - Maybe make pantry cards smaller (see 'The Team' page)
+- Update routes for Add Item to Pantry and Generate New Recipes
+- Create more hard coded pantry items and recipes
 
 
 Have a recipes / home page
