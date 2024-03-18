@@ -29,6 +29,7 @@
 		"astro-seo": "^0.8.0",
 		"bad-words": "^3.0.4",
 		"dotenv": "^16.3.1",
+		"flowbite": "^2.3.0",
 		"openai": "^4.20.1",
 		"pnpm": "^8.15.5",
 		"rehype-autolink-headings": "^7.1.0",

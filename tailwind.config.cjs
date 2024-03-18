@@ -9,6 +9,10 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require("@tailwindcss/typography"), require.resolve("prettier-plugin-astro")],
+	plugins: [
+		require("@tailwindcss/typography"), 
+		require.resolve("prettier-plugin-astro"),
+		require('flowbite/plugin')
+	],
 	darkMode: "class",
 };
