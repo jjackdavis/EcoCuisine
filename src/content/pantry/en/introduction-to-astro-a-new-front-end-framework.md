@@ -1,5 +1,5 @@
 ---
-title: "Banana"
+title: "Introduction to Astro: A New Front-End Framework"
 draft: false
 author: Jon Doe
 tags:
