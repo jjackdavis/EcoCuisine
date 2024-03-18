@@ -1,5 +1,13 @@
 # EcoCuisine
 
+## TODO: Change logo for EcoCuisine, use svg
+
+
+Have a recipes / home page
+Pantry page
+EcoBlog with community recs (these recipes are popular among your friends)
+The team
+
 ## Layout
 - Landing page
   - Add fake auth, with preferences

@@ -7,10 +7,10 @@ import { Icon } from "astro-icon";
 import { localizePath } from "astro-i18next";
 import { getArticleReadingTime } from "@utils/blog";
 
-changeLanguage("it");
+changeLanguage("en");
 
 // Generate a new path for every collection post
-export async function getStaticPaths() {changeLanguage('it')
+export async function getStaticPaths() {changeLanguage('en')
     const blogEntries = await getCollection("blog");
     var localizedBlogEntries = blogEntries.filter((entry) => entry.slug.startsWith(i18next.language));
     return localizedBlogEntries.map((post) => {
