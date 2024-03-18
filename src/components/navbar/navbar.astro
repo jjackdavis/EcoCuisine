@@ -15,10 +15,6 @@ export const menuitems = [
 		],
 	},
 	{
-		title: "header.pricing",
-		path: "/pricing",
-	},
-	{
 		title: "header.blog",
 		path: "/blog",
 	},
@@ -145,17 +141,12 @@ export const menuitems = [
 							data-path={item.path}>
 							{t(item.title)}
 						</Link>
-					),
+					)
 				)
 			}
 		</div>
 		<div class="mt-4 md:mt-0 flex flex-col md:flex-row gap-4">
-			<Link href="/login" style="outline" class="md:px-3 md:py-2 leading-6">
-				{t("header.secondary_button_text")}
-			</Link>
-			<Link href="https://github.com/zankhq/astros" class="md:px-3 md:py-2 leading-6">
-				{t("header.primary_button_text")}
-			</Link>
+			<Link href="/login" style="outline" class="md:px-3 md:py-2 leading-6">Logout</Link>
 		</div>
 	</nav>
 </div>

@@ -1,117 +1,50 @@
-<a href="https://astros.zank.studio">
-  <img src=".github/images/astros.gif" />
-</a>
+# EcoCuisine
 
-# [Astros](https://astros.zank.studio)
-
-<a href="https://astro.build/">![Astro](.github/images/astro-icon.png)</a>
-<a href="https://tailwindcss.com/">![Tailwind](.github/images/tailwind-icon.png)</a>
-<a href="https://alpinejs.dev/">![Alpine js](.github/images/alpine-icon.png)</a>
-
-Astros is a template made with [Astro](https://astro.build), [Tailwind](https://tailwindcss.com/) and [AlpineJS](https://alpinejs.dev/).
-
-This project is strongly inspired by [Astroship](https://github.com/surjithctly/astroship), [Flowbite](https://flowbite.com/blocks/) and [Tailwind UI](https://tailwindui.com/components) components, make sure to check them out as well!
-
-
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/zankhq/astros)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zankhq/astros)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/zankhq/astros)
+## Layout
+- Landing page
+  - Add fake auth, with preferences
+  - Have a refresh button to generate new recipes?
+  - Demo would start with user already signed in
+  - Have hard-coded recipe cards (keeping in mind pantry stuff / user prefs)
+- Navbar
+  - Profile (dead link)
+  - Pantry page
+  - Help (dead link)
+- Pantry page
+  - Use same card-based UI to display pantry items
+  - Have an add to pantry / edit pantry button somewhere
 
 
-### [🧪 Site preview →](https://astros.zank.studio)
+- Recipe Card (look for existing components)
 
-### [🧑‍🚀 Astro website →](https://astro.build/)
+| Title | 
+Picture
 
-### [🕮 Astro docs →](https://docs.astro.build/en/getting-started/)
+- Ingredients
+- [ ] Made, 
+- Prep Time
+- EcoChef rec level : 
+  - sort by priority based on when things expire
+- Macros
+- Click to view the recipe
+- What did you think, rate it out of 5? (Ideally track this info) to tune recs
+- Did you like this? then check this out ->
 
----
+- Pantry item card (reuse recipe card and rename fields)
 
-## Preview
+| Title | 
+Picture
 
-![Alt text](.github/images/pagespeed-small.png)
+- Expiration Date
+- Quantity
+- Nutrition info
+- Maybe add categories
+  - Produce
+  - Meat
+  - Dairy
+  - etc.
 
-![Astros Preview](.github/images/astros-preview.png)
 
-## 🧪 Test
-
-On the folder run
-
-1. `npm i`  <small>(or `yarn` or `pnpm i`)</small>
-2. `npm run dev`  <small>(or `yarn dev` or `pnpm dev`)</small>
-
-(if it's not working report an [issue](https://github.com/zankhq/astros/issues))
-
-## 🚀 Deploy
-
-### Cloudflare pages (suggested)
-
-You can either click on the button above to deploy to Cloudflare automatically, or you can fork this repository and deploy manually from cloudflare dashboard.
-
-You can leave build settings as defaults.
-
-<details>
-<summary>Cloudflare configuration</summary>
-
-![Alt text](.github/images/image.png)
-
-</details>
-
-### Netlify
-
-`TODO`
-
-### Vercel
-
-`TODO`
-
-### Others
-
-You can check the deploy documentation at https://docs.astro.build/en/guides/deploy/
-
-## ✅ Features
-
-- [x] Localization (with astro-i18next)
-- [x] Light/Dark mode (provided by tailwind)
-- [x] Discussion on articles (thanks to giscus)
-- [x] Blog
-- [x] CMS for editing blog post (thanks to Sveltia CMS)
-- [x] PWA (thanks to vite-pwa)
-- [ ] AI to generate article posts
-
-## ✍️ Admin dashboard
-
-You can access the admin dashboard for editing blog post at `/admin` (https://astros.zank.studio/admin)
-
-For more information follow Sveltia CMS documentation at [https://github.com/sveltia/sveltia-cms](https://github.com/sveltia/sveltia-cms)
-
-## 🧞 Dependencies
-
-Astros depends on the following packages:
-
-| Dependency                                                                             | Version        |
-| -------------------------------------------------------------------------------------- | -------------- |
-| [@astrojs/mdx](https://www.npmjs.com/package/@astrojs/mdx)                             | ^0.19.7        |
-| [@astrojs/rss](https://www.npmjs.com/package/@astrojs/rss)                             | ^2.4.3         |
-| [@astrojs/sitemap](https://www.npmjs.com/package/@astrojs/sitemap)                     | ^1.3.3         |
-| [@astrojs/tailwind](https://www.npmjs.com/package/@astrojs/tailwind)                   | ^3.1.3         |
-| [@fontsource-variable/inter](https://www.npmjs.com/package/@fontsource-variable/inter) | ^5.0.2         |
-| [astro](https://www.npmjs.com/package/astro)                                           | ^2.6.1         |
-| [astro-i18next](https://www.npmjs.com/package/astro-i18next)                           | ^1.0.0-beta.21 |
-| [astro-icon](https://www.npmjs.com/package/astro-icon)                                 | ^0.8.1         |
-| [astro-seo](https://www.npmjs.com/package/astro-seo)                                   | ^0.7.4         |
-| [bad-words](https://www.npmjs.com/package/bad-words)                                   | ^3.0.4         |
-| [dotenv](https://www.npmjs.com/package/dotenv)                                         | ^16.1.4        |
-| [openai](https://www.npmjs.com/package/openai)                                         | ^3.2.1         |
-| [rehype-autolink-headings](https://www.npmjs.com/package/rehype-autolink-headings)     | ^6.1.1         |
-| [rehype-slug](https://www.npmjs.com/package/rehype-slug)                               | ^5.1.0         |
-| [rss-parser](https://www.npmjs.com/package/rss-parser)                                 | ^3.13.0        |
-| [tailwindcss](https://www.npmjs.com/package/tailwindcss)                               | ^3.3.2         |
-
-## Known issues
-
-- Localization is not detected automatically
 
 ## FAQ
 
