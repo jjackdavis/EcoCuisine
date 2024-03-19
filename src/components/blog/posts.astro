@@ -9,11 +9,11 @@ export interface Props {
 const { posts } = Astro.props;
 ---
 
-<section class="mx-auto max-w-7xl">
-	<div class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-12 sm:mt-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+<section class="mx-auto max-w-8xl">
+	<div class="mx-auto mt-16 grid max-w-4xl auto-rows-fr grid-cols-1 gap-12 sm:mt-24 lg:mx-0 lg:max-w-none lg:grid-cols-4">
 		{
 			posts.map((blogPostEntry, index) => (
-				<article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-stone-950 px-8 pb-8 pt-32 sm:pt-64 lg:pt-30">
+				<article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-stone-950 px-8 pb-8 pt-16 sm:pt-32 lg:pt-20">
 					<img
 						src={blogPostEntry.data.image.src}
 						alt={blogPostEntry.data.image.alt}

@@ -8,61 +8,72 @@ import Link from "@components/ui/link.astro";
 		<div>
 			<h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100">Add item to pantry</h2>
 		</div>
-		<form class="space-y-6" action="#" method="POST">
-			<div class="relative -space-y-px rounded-md shadow-sm">
-				<div class="pointer-events-none absolute inset-0 z-10 rounded-md ring-1 ring-inset ring-gray-300"></div>
-				<div>
-					<label for="email-address" class="sr-only">Email address</label>
-					<input
-						id="email-address"
-						name="email"
-						required
-						class="relative block px-4 w-full rounded-t-md border-0 py-1.5 text-white dark:text-gray-100 dark:bg-stone-950 ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-						placeholder="Food name"
-					/>
-				</div>
-			</div>
 
-			<div class="relative -space-y-px rounded-md shadow-sm">
-				<label for="number-select" class="sr-only">Select a Number:</label>
-				<div class="flex">
-					<select
-						id="number-select"
-						class="flex-grow w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 bg-black text-white"
-						placeholder="Quantity">
-						<option value="" disabled selected hidden>Quantity</option>
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<!-- Add more options as needed -->
-					</select>
-				</div>
-			</div>
-
-			<div class="relative max-w-sm">
-				<div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-					<svg
-						class="w-4 h-4 text-gray-500 dark:text-gray-400"
-						aria-hidden="true"
-						xmlns="http://www.w3.org/2000/svg"
-						fill="currentColor"
-						viewBox="0 0 20 20">
-						<path
-							d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z">
-						</path>
-					</svg>
-				</div>
+		<div class="relative -space-y-px rounded-md shadow-sm">
+			<div>
+				<label for="food-name" class="sr-only">Food name</label>
 				<input
-					datepicker
-					type="text"
-					class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-					placeholder="Select date"
+					id="food-name"
+					name="food"
+					required
+					class="relative rounded-md block px-4 w-full rounded-t-md border-0 py-1.5 text-stone-950 dark:text-gray-100 dark:bg-stone-950 ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+					placeholder="Food name"
 				/>
 			</div>
+		</div>
 
-			<div>
-				<Button class="w-full" size="sm">Add item</Button>
+		<div class="relative -space-y-px rounded-md shadow-sm">
+			<label for="quantity-type" class="sr-only">Select a Quantity Type:</label>
+			<div class="flex">
+				<select
+					id="quantity-type"
+					class="relative rounded-md block px-4 w-full rounded-t-md border-0 py-1.5 text-stone-950 dark:text-gray-400 dark:bg-stone-950 ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+					placeholder="Quantity Type">
+					<option value="" disabled selected hidden>Quantity Type</option>
+					<option value="item">Item No</option>
+					<option value="weight">Weight</option>
+					<option value="volume">Volume</option>
+					<!-- Add more options as needed -->
+				</select>
 			</div>
-		</form>
+		</div>
+
+		<div class="relative -space-y-px rounded-md shadow-sm">
+			<label for="quantity-value" class="sr-only">Enter a Quantity:</label>
+			<div class="flex">
+				<input
+					id="quantity-value"
+					name="quantity"
+					required
+					class="relative border-gray-300 rounded-md block px-4 w-full rounded-t-md border-0 py-1.5 text-stone-950 dark:text-gray-100 dark:bg-stone-950 ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+					placeholder="Quantity Value"
+				/>
+			</div>
+		</div>
+
+		<div class="relative max-w-sm">
+			<div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+				<svg
+					class="w-4 h-4 text-gray-400 dark:text-gray-400"
+					aria-hidden="true"
+					xmlns="http://www.w3.org/2000/svg"
+					fill="currentColor"
+					viewBox="0 0 20 20">
+					<path
+						d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z">
+					</path>
+				</svg>
+			</div>
+			<input
+				datepicker
+				type="text"
+				class="bg-gray-50 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-stone-950 dark:placeholder-gray-400 dark:text-gray-100 dark:focus:ring-blue-300 dark:focus:border-blue-500"
+				placeholder="Expiration Date"
+			/>
+		</div>
+
+		<div>
+			<Button class="w-full" size="sm">Add item</Button>
+		</div>
 	</div>
 </div>
