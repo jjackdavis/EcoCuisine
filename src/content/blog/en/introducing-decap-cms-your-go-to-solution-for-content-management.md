@@ -21,6 +21,53 @@ Decap CMS, formerly known as Netlify CMS, is an open-source content management s
 Decap CMS is a Git-based CMS that allows developers and content creators to add, update, and delete content directly from the git repo of the site. This provides the benefits of version controlled content, allowing for easy rollbacks, branching, and other Git operations.
 
 ## Key Features of Decap CMS
+---
+title: "Banana"
+draft: false
+author: Fruit
+tags:
+  - bananas
+image:
+  src: /images/banana.png
+  alt: Banana
+snippet: Bananas are a delicious and nutritious fruit loved by many.
+publishDate: 2023-07-01 23:14
+category: "Fruits"
+---
+
+Bananas are a delicious and nutritious fruit loved by many. They are commonly eaten fresh or used in various recipes due to their sweet taste and creamy texture.
+
+## What are Bananas?
+
+Bananas are elongated, curved fruits with a soft, edible flesh inside a thick peel. They grow on banana plants, which are native to tropical regions.
+
+## Nutritional Benefits of Bananas
+
+Bananas are packed with essential nutrients, including:
+- **Vitamins**: Bananas are rich in vitamin C, vitamin B6, and vitamin A.
+- **Minerals**: They contain potassium, magnesium, and manganese.
+- **Dietary Fiber**: Bananas are a good source of dietary fiber, promoting digestive health.
+
+## Culinary Uses of Bananas
+
+Bananas can be enjoyed in various ways:
+- **Fresh**: They can be eaten as a quick and nutritious snack.
+- **Smoothies**: Bananas are commonly used as a base for smoothies to add sweetness and creaminess.
+- **Baking**: They can be used in baking recipes for cakes, bread, and muffins.
+- **Desserts**: Bananas are often used in desserts like banana pudding, banana bread, and banana splits.
+
+## Health Benefits of Bananas
+
+Bananas offer several health benefits, including:
+- **Heart Health**: The potassium content in bananas may help lower blood pressure and reduce the risk of heart disease.
+- **Digestive Health**: The dietary fiber in bananas promotes regular bowel movements and may help prevent constipation.
+- **Energy Boost**: Bananas are a great source of carbohydrates, making them an excellent choice for a quick energy boost.
+
+## Buying and Storing Bananas
+
+When buying bananas, look for ones with vibrant yellow skins and no signs of bruising. Store bananas at room temperature, and avoid placing them near other fruits, as they release ethylene gas, which can cause ripening.
+
+In conclusion, bananas are not only delicious but also nutritious, versatile, and easy to incorporate into a healthy diet.
 
 ### Open Source
 

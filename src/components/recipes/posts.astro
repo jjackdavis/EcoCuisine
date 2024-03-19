@@ -44,8 +44,10 @@ const { posts } = Astro.props;
 						</a>
 					</h3>
 
-					<h4 class="pt-3 text-xs font-medium text-gray-300 uppercase tracking-wider">
+					<h4 class="pt-3 text-xs font-medium text-gray-300 tracking-wider">
+						Ingredients: 
 						<a href={localizePath(`/category/${blogPostEntry.data.category?.toLowerCase()}`)}>{blogPostEntry.data.category}</a>
+						bananas
 					</h4>
 				</article>
 			))

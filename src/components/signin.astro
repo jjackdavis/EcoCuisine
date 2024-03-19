@@ -16,66 +16,53 @@ import Link from "@components/ui/link.astro";
 					<input
 						id="email-address"
 						name="email"
-						type="email"
-						autocomplete="email"
 						required
-						class="relative block px-4 w-full rounded-t-md border-0 py-1.5 text-gray-900 dark:text-gray-100 dark:bg-stone-950 ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-						placeholder="Email address"
-					/>
-				</div>
-				<div>
-					<label for="password" class="sr-only">Password</label>
-					<input
-						id="password"
-						name="password"
-						type="password"
-						autocomplete="current-password"
-						required
-						class="relative block px-4 w-full rounded-b-md border-0 py-1.5 text-gray-900 dark:text-gray-100 dark:bg-stone-950 ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-						placeholder="Password"
+						class="relative block px-4 w-full rounded-t-md border-0 py-1.5 text-white dark:text-gray-100 dark:bg-stone-950 ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+						placeholder="Food name"
 					/>
 				</div>
 			</div>
 
-			<div class="flex items-center justify-between">
-				<div class="flex items-center">
-					<input
-						id="remember-me"
-						name="remember-me"
-						type="checkbox"
-						class="h-4 w-4 rounded border-gray-300 text-black focus:text-black accent-stone-950 dark:accent-gray-100"
-					/>
-					<label for="remember-me" class="ml-3 block text-sm leading-6 text-gray-900 dark:text-gray-100">Remember me</label>
+			<div class="relative -space-y-px rounded-md shadow-sm">
+				<label for="number-select" class="sr-only">Select a Number:</label>
+				<div class="flex">
+					<select
+						id="number-select"
+						class="flex-grow w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 bg-black text-white"
+						placeholder="Quantity">
+						<option value="" disabled selected hidden>Quantity</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<!-- Add more options as needed -->
+					</select>
 				</div>
+			</div>
 
-				<div class="text-sm leading-6">
-					<Link style="muted" href="#" size="xs" class="text-right">Forgot password?</Link>
+			<div class="relative max-w-sm">
+				<div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+					<svg
+						class="w-4 h-4 text-gray-500 dark:text-gray-400"
+						aria-hidden="true"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="currentColor"
+						viewBox="0 0 20 20">
+						<path
+							d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z">
+						</path>
+					</svg>
 				</div>
+				<input
+					datepicker
+					type="text"
+					class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+					placeholder="Select date"
+				/>
 			</div>
 
 			<div>
 				<Button class="w-full" size="sm">Add item</Button>
 			</div>
 		</form>
-		<div class="relative max-w-sm">
-			<div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
-				<svg
-					class="w-4 h-4 text-gray-500 dark:text-gray-400"
-					aria-hidden="true"
-					xmlns="http://www.w3.org/2000/svg"
-					fill="currentColor"
-					viewBox="0 0 20 20">
-					<path
-						d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z">
-					</path>
-				</svg>
-			</div>
-			<input
-				datepicker
-				type="text"
-				class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-				placeholder="Select date"
-			/>
-		</div>
 	</div>
 </div>

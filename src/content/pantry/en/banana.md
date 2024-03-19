@@ -1,7 +1,7 @@
 ---
 title: "Banana"
 draft: false
-author: Jon Doe
+author: Fruit
 tags:
   - decapcms
 image:
