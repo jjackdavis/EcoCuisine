@@ -1,74 +1,42 @@
 ---
-title: "Banana Cookies"
+title: "Rice Pilaf"
 draft: false
-author: Jon Doe
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana_recipe.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
-publishDate: 2023-07-01 23:14
-category: "4"
+  src: /images/rice_pilaf.png
+  alt: Rice Pilaf
+snippet: A flavorful and aromatic rice dish cooked with onions, garlic, and broth.
+cookTime: "25 minutes"
+category: "Rice"
 ---
 
-Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
+## Ingredients
 
-## What is Decap CMS?
+- 1 cup long-grain white rice
+- 1 tablespoon olive oil or butter
+- 1 small onion, finely chopped
+- 2 cloves garlic, minced
+- 2 cups chicken or vegetable broth
+- Salt and pepper to taste
+- Chopped fresh parsley for garnish (optional)
 
-Decap CMS is a Git-based CMS that allows developers and content creators to add, update, and delete content directly from the git repo of the site. This provides the benefits of version controlled content, allowing for easy rollbacks, branching, and other Git operations.
+## Instructions
 
-## Key Features of Decap CMS
+1. Rinse the rice under cold water until the water runs clear. Drain well and set aside.
 
-### Open Source
+2. Heat the olive oil or butter in a large skillet or saucepan over medium heat. Add the chopped onion and minced garlic, and sauté until softened and fragrant, about 3-4 minutes.
 
-Being open-source means that you have access to the source code and can modify and customize it according to your project requirements. This allows for high flexibility in adapting the CMS to your specific needs.
+3. Add the rinsed and drained rice to the skillet with the onion and garlic. Cook, stirring frequently, for 2-3 minutes until the rice is lightly toasted.
 
-### Git-Based
+4. Pour the chicken or vegetable broth into the skillet with the rice mixture. Season with salt and pepper to taste.
 
-Decap CMS uses Git workflows for content management. Every edit becomes a commit, every batch of edits becomes a pull request, and every saved draft is just a branch.
+5. Bring the broth to a boil, then reduce the heat to low and cover the skillet with a tight-fitting lid. Simmer for 15-18 minutes, or until the rice is tender and has absorbed all of the liquid.
 
-### Easy to Use
+6. Remove the skillet from the heat and let it sit, covered, for 5 minutes.
 
-Decap CMS provides a user-friendly editorial interface for content creators, freeing them from needing to understand Git or code.
+7. Fluff the rice pilaf with a fork and transfer it to a serving dish.
 
-## Getting Started with Decap CMS
+8. Garnish with chopped fresh parsley, if desired, and serve hot as a delicious side dish.
 
-Getting started with Decap CMS is as easy as adding two files to your project: `admin/index.html` and `admin/config.yml`.
-
-```html
-<!-- admin/index.html -->
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
-</head>
-<body>
-  <!-- Include the script that builds the page and powers Decap CMS -->
-  <script src="https://unpkg.com/decap-cms@^2.0.0/dist/decap-cms.js"></script>
-</body>
-</html>
-```
-
-```yaml
-# admin/config.yml
-backend:
-  name: github
-  repo: owner/repo
-media_folder: "img/uploads"
-public_folder: "/img/uploads"
-collections:
-  - name: "post"
-    label: "Post"
-    folder: "_posts"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-```
-
-In the era of Jamstack, Decap CMS is paving the way for modern, Git-based content management. With its simplicity and flexibility, it's an excellent choice for developers and content creators alike.
+Enjoy this flavorful Rice Pilaf with your favorite main courses!

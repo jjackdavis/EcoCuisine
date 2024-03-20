@@ -1,17 +1,15 @@
 ---
-title: "Banana"
+title: "Butter"
 draft: false
-author: Fruit
+author: Dairy
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
+  src: /images/butter.png
+  alt: Butter
+snippet: Butter is a versatile ingredient loved for its rich flavor and numerous culinary uses.
 publishDate: 2023-07-01 23:14
-category: "4"
+category: "7"
 ---
 
 Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.

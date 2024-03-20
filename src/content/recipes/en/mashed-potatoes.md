@@ -1,74 +1,38 @@
 ---
-title: "Banana Cookies"
+title: "Mashed Potatoes"
 draft: false
-author: Jon Doe
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana_recipe.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
-publishDate: 2023-07-01 23:14
-category: "4"
+  src: /images/mashed_potatoes.png
+  alt: Mashed Potatoes
+snippet: Creamy and comforting mashed potatoes, perfect as a side dish for any meal.
+cookTime: "25 minutes"
+category: "Potatoes"
 ---
 
-Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
+## Ingredients
 
-## What is Decap CMS?
+- 2 lbs potatoes, peeled and quartered
+- 4 tablespoons butter
+- 1/2 cup milk
+- Salt and pepper to taste
+- Chopped fresh parsley for garnish (optional)
 
-Decap CMS is a Git-based CMS that allows developers and content creators to add, update, and delete content directly from the git repo of the site. This provides the benefits of version controlled content, allowing for easy rollbacks, branching, and other Git operations.
+## Instructions
 
-## Key Features of Decap CMS
+1. Place the peeled and quartered potatoes in a large pot and cover with cold water. Add a pinch of salt to the water.
 
-### Open Source
+2. Bring the water to a boil over medium-high heat. Reduce the heat to low and simmer the potatoes for 15-20 minutes, or until they are fork-tender.
 
-Being open-source means that you have access to the source code and can modify and customize it according to your project requirements. This allows for high flexibility in adapting the CMS to your specific needs.
+3. Drain the cooked potatoes and return them to the pot.
 
-### Git-Based
+4. Add the butter and milk to the pot with the potatoes.
 
-Decap CMS uses Git workflows for content management. Every edit becomes a commit, every batch of edits becomes a pull request, and every saved draft is just a branch.
+5. Use a potato masher or fork to mash the potatoes until smooth and creamy. Add more milk if needed to reach your desired consistency.
 
-### Easy to Use
+6. Season the mashed potatoes with salt and pepper to taste, and stir well to combine.
 
-Decap CMS provides a user-friendly editorial interface for content creators, freeing them from needing to understand Git or code.
+7. Transfer the mashed potatoes to a serving dish and garnish with chopped fresh parsley, if desired.
 
-## Getting Started with Decap CMS
-
-Getting started with Decap CMS is as easy as adding two files to your project: `admin/index.html` and `admin/config.yml`.
-
-```html
-<!-- admin/index.html -->
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
-</head>
-<body>
-  <!-- Include the script that builds the page and powers Decap CMS -->
-  <script src="https://unpkg.com/decap-cms@^2.0.0/dist/decap-cms.js"></script>
-</body>
-</html>
-```
-
-```yaml
-# admin/config.yml
-backend:
-  name: github
-  repo: owner/repo
-media_folder: "img/uploads"
-public_folder: "/img/uploads"
-collections:
-  - name: "post"
-    label: "Post"
-    folder: "_posts"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-```
-
-In the era of Jamstack, Decap CMS is paving the way for modern, Git-based content management. With its simplicity and flexibility, it's an excellent choice for developers and content creators alike.
+Enjoy these creamy Mashed Potatoes as a delicious side dish with your favorite meals!

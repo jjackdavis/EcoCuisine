@@ -1,18 +1,18 @@
 ---
-title: "Banana"
+title: "Chicken Breast"
 draft: false
-author: Fruit
+author: Poultry
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
+  src: /images/chicken_breast.png
+  alt: Chicken Breast
+snippet: Chicken breast is a versatile protein loved for its lean, tender meat.
 publishDate: 2023-07-01 23:14
-category: "4"
+category: "10"
 ---
+
+
 
 Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
 

@@ -1,74 +1,40 @@
 ---
-title: "Banana"
+title: "Bacon"
 draft: false
-author: Fruit
+author: Bacon Lover
 tags:
-  - decapcms
+  - food
+  - meat
 image:
-  src: /images/banana.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
-publishDate: 2023-07-01 23:14
-category: "4"
+  src: /images/bacon.png
+  alt: Bacon
+snippet: Bacon is a savory meat product loved for its rich flavor and versatility in cooking.
+publishDate: 2024-03-19 12:00
+category: "12"
 ---
 
-Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
+Bacon is a savory meat product cherished for its delicious taste and versatility in cooking. It adds a rich flavor and crispy texture to a wide range of dishes, making it a beloved ingredient in various cuisines worldwide.
 
-## What is Decap CMS?
+## All About Bacon
 
-Decap CMS is a Git-based CMS that allows developers and content creators to add, update, and delete content directly from the git repo of the site. This provides the benefits of version controlled content, allowing for easy rollbacks, branching, and other Git operations.
+Bacon is a type of cured pork made from the belly or back cuts of a pig. It is typically cured with salt and may also be smoked or flavored with spices such as black pepper or maple syrup. Bacon is known for its distinctive savory flavor and crispy texture when cooked.
 
-## Key Features of Decap CMS
+### Culinary Uses
 
-### Open Source
+Bacon is a versatile ingredient used in countless recipes across different cuisines. It can be cooked and enjoyed on its own as a crispy snack or used as a flavor-enhancing ingredient in dishes such as sandwiches, salads, soups, and pasta. Bacon is also commonly paired with eggs for a classic breakfast combination or wrapped around other ingredients such as chicken or vegetables for added flavor.
 
-Being open-source means that you have access to the source code and can modify and customize it according to your project requirements. This allows for high flexibility in adapting the CMS to your specific needs.
+### Flavor Profile
 
-### Git-Based
+Bacon is prized for its rich, salty, and smoky flavor, which adds depth and complexity to dishes. The fat content in bacon contributes to its unique texture and mouthfeel, making it both satisfying and indulgent to eat.
 
-Decap CMS uses Git workflows for content management. Every edit becomes a commit, every batch of edits becomes a pull request, and every saved draft is just a branch.
+### Cultivation
 
-### Easy to Use
+Bacon is derived from pigs, which are raised and bred specifically for meat production. The pork belly or back cuts used to make bacon are cured with salt and other seasonings before being sliced and packaged for sale. Bacon can be found in various forms, including sliced strips, bacon bits, and thick-cut slabs.
 
-Decap CMS provides a user-friendly editorial interface for content creators, freeing them from needing to understand Git or code.
+## Fun Facts
 
-## Getting Started with Decap CMS
+- The word "bacon" is derived from the Old High German word "bacho," meaning "back meat."
+- Bacon has been enjoyed as a food staple for centuries, with evidence of its consumption dating back to ancient Roman times.
+- Bacon is often associated with breakfast, but it is also a popular ingredient in sandwiches, burgers, and salads.
 
-Getting started with Decap CMS is as easy as adding two files to your project: `admin/index.html` and `admin/config.yml`.
-
-```html
-<!-- admin/index.html -->
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
-</head>
-<body>
-  <!-- Include the script that builds the page and powers Decap CMS -->
-  <script src="https://unpkg.com/decap-cms@^2.0.0/dist/decap-cms.js"></script>
-</body>
-</html>
-```
-
-```yaml
-# admin/config.yml
-backend:
-  name: github
-  repo: owner/repo
-media_folder: "img/uploads"
-public_folder: "/img/uploads"
-collections:
-  - name: "post"
-    label: "Post"
-    folder: "_posts"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-```
-
-In the era of Jamstack, Decap CMS is paving the way for modern, Git-based content management. With its simplicity and flexibility, it's an excellent choice for developers and content creators alike.
+In summary, bacon is a beloved culinary staple known for its rich flavor, crispy texture, and versatility in cooking. Whether enjoyed as a standalone treat or incorporated into a wide range of dishes, bacon remains a timeless favorite cherished by food enthusiasts around the world.

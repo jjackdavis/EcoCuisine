@@ -1,74 +1,40 @@
 ---
-title: "Banana Cookies"
+title: "Banana Bread"
 draft: false
-author: Jon Doe
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana_recipe.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
-publishDate: 2023-07-01 23:14
-category: "4"
+  src: /images/banana_bread.png
+  alt: Banana Bread
+snippet: A moist and flavorful bread made with ripe bananas, perfect for breakfast or dessert.
+cookTime: "60 minutes"
+category: "Bananas"
 ---
 
-Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
+## Ingredients
 
-## What is Decap CMS?
+- 2 ripe bananas, mashed
+- 1/2 cup butter, melted
+- 1/2 cup granulated sugar
+- 1/4 cup milk
+- 2 eggs
+- 1 teaspoon vanilla extract
+- 1 3/4 cups all-purpose flour
+- 1 teaspoon baking powder
+- 1/2 teaspoon baking soda
+- 1/2 teaspoon salt
+- 1/2 teaspoon ground cinnamon
+- 1/4 teaspoon ground nutmeg
+- Optional add-ins: chopped nuts, chocolate chips, dried fruit
 
-Decap CMS is a Git-based CMS that allows developers and content creators to add, update, and delete content directly from the git repo of the site. This provides the benefits of version controlled content, allowing for easy rollbacks, branching, and other Git operations.
+## Instructions
 
-## Key Features of Decap CMS
+1. Preheat your oven to 350°F (175°C). Grease a 9x5-inch loaf pan and set aside.
 
-### Open Source
+2. In a large mixing bowl, combine the mashed bananas, melted butter, granulated sugar, milk, eggs, and vanilla extract. Mix until well combined.
 
-Being open-source means that you have access to the source code and can modify and customize it according to your project requirements. This allows for high flexibility in adapting the CMS to your specific needs.
+3. In a separate bowl, whisk together the all-purpose flour, baking powder, baking soda, salt, ground cinnamon, and ground nutmeg.
 
-### Git-Based
+4. Gradually add the dry ingredients to the wet ingredients, stirring until just combined. Be careful not to overmix.
 
-Decap CMS uses Git workflows for content management. Every edit becomes a commit, every batch of edits becomes a pull request, and every saved draft is just a branch.
-
-### Easy to Use
-
-Decap CMS provides a user-friendly editorial interface for content creators, freeing them from needing to understand Git or code.
-
-## Getting Started with Decap CMS
-
-Getting started with Decap CMS is as easy as adding two files to your project: `admin/index.html` and `admin/config.yml`.
-
-```html
-<!-- admin/index.html -->
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
-</head>
-<body>
-  <!-- Include the script that builds the page and powers Decap CMS -->
-  <script src="https://unpkg.com/decap-cms@^2.0.0/dist/decap-cms.js"></script>
-</body>
-</html>
-```
-
-```yaml
-# admin/config.yml
-backend:
-  name: github
-  repo: owner/repo
-media_folder: "img/uploads"
-public_folder: "/img/uploads"
-collections:
-  - name: "post"
-    label: "Post"
-    folder: "_posts"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-```
-
-In the era of Jamstack, Decap CMS is paving the way for modern, Git-based content management. With its simplicity and flexibility, it's an excellent choice for developers and content creators alike.
+5. If desired, fol

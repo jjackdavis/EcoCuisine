@@ -1,18 +1,18 @@
 ---
-title: "Banana"
+title: "Mustard"
 draft: false
-author: Fruit
+author: Condiments
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
+  src: /images/mustard.png
+  alt: Mustard
+snippet: Mustard is a flavorful condiment loved for its tangy taste and versatility.
 publishDate: 2023-07-01 23:14
-category: "4"
+category: "35"
 ---
+
+
 
 Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
 

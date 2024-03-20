@@ -1,18 +1,18 @@
 ---
-title: "Banana"
+title: "Paprika"
 draft: false
-author: Fruit
+author: Condiments
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
+  src: /images/paprika.png
+  alt: Paprika
+snippet: Paprika is a flavorful spice loved for its vibrant color and rich taste.
 publishDate: 2023-07-01 23:14
-category: "4"
+category: "45"
 ---
+
+
 
 Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
 

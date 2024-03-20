@@ -1,18 +1,18 @@
 ---
-title: "Banana"
+title: "Eggs"
 draft: false
-author: Fruit
+author: Farm Produce
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
+  src: /images/eggs.png
+  alt: Eggs
+snippet: Eggs are a versatile ingredient loved for their protein content and culinary uses.
 publishDate: 2023-07-01 23:14
-category: "4"
+category: "15"
 ---
+
+
 
 Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
 

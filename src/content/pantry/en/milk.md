@@ -1,18 +1,18 @@
 ---
-title: "Banana"
+title: "Milk"
 draft: false
-author: Fruit
+author: Dairy
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
+  src: /images/milk.png
+  alt: Milk
+snippet: Milk is a nutritious dairy product loved for its versatility and essential nutrients.
 publishDate: 2023-07-01 23:14
-category: "4"
+category: "30"
 ---
+
+
 
 Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
 

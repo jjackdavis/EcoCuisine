@@ -31,9 +31,7 @@ export async function getStaticPaths({ paginate }) {
 	});
 	// Filter posts based on the current language
 	const localizedPosts = processedPosts.filter((post) => post.lang === i18next.language);
-	localizedPosts.sort(function (a, b) {
-		return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
-	});
+
 	return paginate(localizedPosts, {
 		params: { blog: "blog" || undefined },
 		pageSize: 4,

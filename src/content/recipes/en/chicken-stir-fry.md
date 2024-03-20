@@ -1,74 +1,46 @@
 ---
-title: "Banana Cookies"
+title: "Chicken Stir Fry"
 draft: false
-author: Jon Doe
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana_recipe.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
-publishDate: 2023-07-01 23:14
-category: "4"
+  src: /images/chicken_stir_fry.png
+  alt: Chicken Stir Fry
+snippet: A quick and flavorful dish featuring tender chicken and crisp vegetables.
+cookTime: "20 minutes"
+category: "Chicken Breast"
 ---
 
-Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
+## Ingredients
 
-## What is Decap CMS?
+- 1 lb chicken breast, thinly sliced
+- 2 tablespoons soy sauce
+- 2 tablespoons oyster sauce
+- 1 tablespoon hoisin sauce
+- 1 tablespoon sesame oil
+- 2 cloves garlic, minced
+- 1 teaspoon ginger, minced
+- 1 onion, sliced
+- 1 bell pepper, sliced
+- 1 cup broccoli florets
+- 1 carrot, sliced
+- 1 tablespoon vegetable oil
+- Cooked rice or noodles, for serving
 
-Decap CMS is a Git-based CMS that allows developers and content creators to add, update, and delete content directly from the git repo of the site. This provides the benefits of version controlled content, allowing for easy rollbacks, branching, and other Git operations.
+## Instructions
 
-## Key Features of Decap CMS
+1. In a small bowl, mix together the soy sauce, oyster sauce, hoisin sauce, and sesame oil. Set aside.
 
-### Open Source
+2. Heat the vegetable oil in a large skillet or wok over medium-high heat. Add the minced garlic and ginger, and cook for about 30 seconds until fragrant.
 
-Being open-source means that you have access to the source code and can modify and customize it according to your project requirements. This allows for high flexibility in adapting the CMS to your specific needs.
+3. Add the sliced chicken breast to the skillet and stir-fry for 5-6 minutes, or until the chicken is cooked through and no longer pink.
 
-### Git-Based
+4. Add the sliced onion, bell pepper, broccoli florets, and carrot to the skillet. Stir-fry for an additional 4-5 minutes, or until the vegetables are tender-crisp.
 
-Decap CMS uses Git workflows for content management. Every edit becomes a commit, every batch of edits becomes a pull request, and every saved draft is just a branch.
+5. Pour the sauce mixture over the chicken and vegetables in the skillet. Stir well to coat everything evenly in the sauce.
 
-### Easy to Use
+6. Cook for another 1-2 minutes, stirring constantly, until the sauce has thickened slightly and everything is heated through.
 
-Decap CMS provides a user-friendly editorial interface for content creators, freeing them from needing to understand Git or code.
+7. Remove the skillet from the heat and serve the chicken stir-fry immediately over cooked rice or noodles.
 
-## Getting Started with Decap CMS
-
-Getting started with Decap CMS is as easy as adding two files to your project: `admin/index.html` and `admin/config.yml`.
-
-```html
-<!-- admin/index.html -->
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
-</head>
-<body>
-  <!-- Include the script that builds the page and powers Decap CMS -->
-  <script src="https://unpkg.com/decap-cms@^2.0.0/dist/decap-cms.js"></script>
-</body>
-</html>
-```
-
-```yaml
-# admin/config.yml
-backend:
-  name: github
-  repo: owner/repo
-media_folder: "img/uploads"
-public_folder: "/img/uploads"
-collections:
-  - name: "post"
-    label: "Post"
-    folder: "_posts"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-```
-
-In the era of Jamstack, Decap CMS is paving the way for modern, Git-based content management. With its simplicity and flexibility, it's an excellent choice for developers and content creators alike.
+Enjoy this delicious Chicken Stir Fry as a quick and satisfying meal!

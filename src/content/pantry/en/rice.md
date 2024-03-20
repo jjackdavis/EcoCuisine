@@ -1,18 +1,18 @@
 ---
-title: "Banana"
+title: "Rice"
 draft: false
-author: Fruit
+author: Grains
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
+  src: /images/rice.png
+  alt: Rice
+snippet: Rice is a staple grain loved for its versatility and ability to complement a wide range of dishes.
 publishDate: 2023-07-01 23:14
-category: "4"
+category: "60"
 ---
+
+
 
 Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
 

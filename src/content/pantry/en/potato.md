@@ -1,18 +1,18 @@
 ---
-title: "Banana"
+title: "Potatoes"
 draft: false
-author: Fruit
+author: Vegetables
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
+  src: /images/potatoes.png
+  alt: Potatoes
+snippet: Potatoes are a versatile vegetable loved for their delicious taste and numerous culinary uses.
 publishDate: 2023-07-01 23:14
-category: "4"
+category: "55"
 ---
+
+
 
 Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
 

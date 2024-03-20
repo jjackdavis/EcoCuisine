@@ -1,74 +1,35 @@
 ---
-title: "Banana Cookies"
+title: "Apple Bacon Salad"
 draft: false
-author: Jon Doe
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana_recipe.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
-publishDate: 2023-07-01 23:14
-category: "4"
+  src: /images/apple_bacon_salad.png
+  alt: Apple Bacon Salad
+snippet: A refreshing salad combining the sweetness of apples with the savory goodness of bacon.
+cookTime: "15 minutes"
+category: "Salads"
 ---
 
-Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
+## Ingredients
 
-## What is Decap CMS?
+- 2 cups mixed salad greens
+- 1 apple, thinly sliced
+- 4 slices bacon, cooked and crumbled
+- 1/4 cup chopped walnuts
+- 1/4 cup crumbled feta cheese
+- 2 tablespoons olive oil
+- 1 tablespoon mustard
+- Salt and pepper to taste
 
-Decap CMS is a Git-based CMS that allows developers and content creators to add, update, and delete content directly from the git repo of the site. This provides the benefits of version controlled content, allowing for easy rollbacks, branching, and other Git operations.
+## Instructions
 
-## Key Features of Decap CMS
+1. In a large salad bowl, combine the mixed greens, sliced apple, cooked bacon, chopped walnuts, and crumbled feta cheese.
 
-### Open Source
+2. In a small bowl, whisk together olive oil and mustard. Season with salt and pepper to taste.
 
-Being open-source means that you have access to the source code and can modify and customize it according to your project requirements. This allows for high flexibility in adapting the CMS to your specific needs.
+3. Drizzle the dressing over the salad and toss gently to coat.
 
-### Git-Based
+4. Serve immediately as a refreshing side dish or add grilled chicken or shrimp for a complete meal.
 
-Decap CMS uses Git workflows for content management. Every edit becomes a commit, every batch of edits becomes a pull request, and every saved draft is just a branch.
-
-### Easy to Use
-
-Decap CMS provides a user-friendly editorial interface for content creators, freeing them from needing to understand Git or code.
-
-## Getting Started with Decap CMS
-
-Getting started with Decap CMS is as easy as adding two files to your project: `admin/index.html` and `admin/config.yml`.
-
-```html
-<!-- admin/index.html -->
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
-</head>
-<body>
-  <!-- Include the script that builds the page and powers Decap CMS -->
-  <script src="https://unpkg.com/decap-cms@^2.0.0/dist/decap-cms.js"></script>
-</body>
-</html>
-```
-
-```yaml
-# admin/config.yml
-backend:
-  name: github
-  repo: owner/repo
-media_folder: "img/uploads"
-public_folder: "/img/uploads"
-collections:
-  - name: "post"
-    label: "Post"
-    folder: "_posts"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-```
-
-In the era of Jamstack, Decap CMS is paving the way for modern, Git-based content management. With its simplicity and flexibility, it's an excellent choice for developers and content creators alike.
+Enjoy this delicious Apple Bacon Salad as a light and satisfying meal!

@@ -1,74 +1,44 @@
 ---
-title: "Banana Cookies"
+title: "Pasta Carbonara"
 draft: false
-author: Jon Doe
 tags:
-  - decapcms
+  - food
 image:
-  src: /images/banana_recipe.png
-  alt: Decap CMS
-snippet: Decap CMS, formerly known as Netlify CMS, is an open-source content
-  management system offering developers a seamless way to manage content for
-  static site generators.
-publishDate: 2023-07-01 23:14
-category: "4"
+  src: /images/pasta_carbonara.png
+  alt: Pasta Carbonara
+snippet: A classic Italian pasta dish featuring creamy sauce, crispy bacon, and Parmesan cheese.
+cookTime: "20 minutes"
+category: "Pasta"
 ---
 
-Decap CMS, formerly known as Netlify CMS, is an open-source content management system that offers developers a seamless way to manage content for static site generators.
+## Ingredients
 
-## What is Decap CMS?
+- 8 oz spaghetti or fettuccine pasta
+- 4 slices bacon, diced
+- 2 cloves garlic, minced
+- 2 large eggs
+- 1/2 cup grated Parmesan cheese
+- Salt and black pepper to taste
+- Chopped fresh parsley for garnish (optional)
 
-Decap CMS is a Git-based CMS that allows developers and content creators to add, update, and delete content directly from the git repo of the site. This provides the benefits of version controlled content, allowing for easy rollbacks, branching, and other Git operations.
+## Instructions
 
-## Key Features of Decap CMS
+1. Cook the pasta according to the package instructions until al dente. Reserve 1/2 cup of pasta water, then drain the pasta and set aside.
 
-### Open Source
+2. While the pasta is cooking, heat a large skillet over medium heat. Add the diced bacon and cook until crispy, about 5-6 minutes.
 
-Being open-source means that you have access to the source code and can modify and customize it according to your project requirements. This allows for high flexibility in adapting the CMS to your specific needs.
+3. Add the minced garlic to the skillet with the bacon and cook for an additional 1-2 minutes until fragrant.
 
-### Git-Based
+4. In a small bowl, whisk together the eggs and grated Parmesan cheese until well combined.
 
-Decap CMS uses Git workflows for content management. Every edit becomes a commit, every batch of edits becomes a pull request, and every saved draft is just a branch.
+5. Remove the skillet from the heat and add the cooked pasta to the bacon and garlic mixture. Toss to combine.
 
-### Easy to Use
+6. Quickly pour the egg and cheese mixture over the hot pasta, stirring constantly to coat the pasta in the creamy sauce. The heat from the pasta will cook the eggs and create a creamy sauce.
 
-Decap CMS provides a user-friendly editorial interface for content creators, freeing them from needing to understand Git or code.
+7. If the sauce is too thick, gradually add the reserved pasta water a little at a time until you reach your desired consistency.
 
-## Getting Started with Decap CMS
+8. Season the pasta carbonara with salt and black pepper to taste.
 
-Getting started with Decap CMS is as easy as adding two files to your project: `admin/index.html` and `admin/config.yml`.
+9. Garnish with chopped fresh parsley, if desired, and serve immediately.
 
-```html
-<!-- admin/index.html -->
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
-</head>
-<body>
-  <!-- Include the script that builds the page and powers Decap CMS -->
-  <script src="https://unpkg.com/decap-cms@^2.0.0/dist/decap-cms.js"></script>
-</body>
-</html>
-```
-
-```yaml
-# admin/config.yml
-backend:
-  name: github
-  repo: owner/repo
-media_folder: "img/uploads"
-public_folder: "/img/uploads"
-collections:
-  - name: "post"
-    label: "Post"
-    folder: "_posts"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-```
-
-In the era of Jamstack, Decap CMS is paving the way for modern, Git-based content management. With its simplicity and flexibility, it's an excellent choice for developers and content creators alike.
+Enjoy this delicious Pasta Carbonara as a comforting and flavorful meal!

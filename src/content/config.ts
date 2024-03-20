@@ -43,7 +43,7 @@ const recipesCollection = defineCollection({
 			src: z.string(),
 			alt: z.string(),
 		}),
-		publishDate: z.string().transform((str) => new Date(str)),
+		cookTime: z.string().default("30 minutes"),
 		author: z.string().default("EcoCuisine Team"),
 		category: z.string(),
 		tags: z.array(z.string()),
