@@ -1,0 +1,18 @@
+---
+import Contactform from "@components/contactform.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Signup from "@components/signup.astro";
+import Button from "@components/ui/button.astro";
+import Layout from "@layouts/Layout.astro";
+import { Icon } from "astro-icon/components";
+import { changeLanguage } from "i18next";
+
+changeLanguage("en");
+---
+
+<Layout title="Login">
+	<Container>
+		<Signup />
+	</Container>
+</Layout>
