@@ -10,10 +10,10 @@ const { posts } = Astro.props;
 ---
 
 <section class="mx-auto max-w-8xl">
-	<div class="mx-auto mt-16 grid max-w-4xl auto-rows-fr grid-cols-1 gap-12 sm:mt-24 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+	<div class="mx-auto mt-16 grid max-w-4xl auto-rows-fr grid-cols-1 gap-12 sm:mt-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 		{
 			posts.map((blogPostEntry, index) => (
-				<article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-stone-950 px-8 pb-8 pt-16 sm:pt-32 lg:pt-20">
+				<article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-stone-950 px-8 pb-12 pt-24 sm:pt-40 lg:pt-32">
 					<img
 						src={blogPostEntry.data.image.src}
 						alt={blogPostEntry.data.image.alt}
